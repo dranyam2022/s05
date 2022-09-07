@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Zuitt IT Solutions</h1>
+        <h2>Products Offered</h2>
+    </header>
+
+    <section>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basic</td>
+                    <td>&#8369 500.00</td>
+                    <td>Package includes a fully functional website with desired specifications.</td>
+                </tr>
+                <tr>
+                    <td>Premium</td>
+                    <td>&#8369 1000.00</td>
+                    <td>Enjoy all the benefits of the basic package and also includes site support and maintenance.
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="3" align="center"><strong>Additional features after initial project is inclusive
+                        of charges</strong></td>
+            </tfoot>
+        </table>
+    </section>
+
+    <section>
+        <h3>Contact Form</h3>
+        <form action="#">
+            <label for="first_name">First Name:</label>
+            <br>
+            <input type="text" name="first_name" required autocomplete="on">
+            <br>
+            <label for="last_name">Last Name:</label>
+            <br>
+            <input type="text" name="last_name" required autocomplete="on">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" required autocomplete="on">
+            <br>
+            <label for="contact_number">Contact:</label>
+            <br>
+            <input type="tel" name="contact_number" required autocomplete="on">
+            <br>
+            <label for="service_type">Service Type:</label>
+            <br>
+            <select name="service_type">
+                <option value="front-end">Front End Programming</option>
+                <option value="back-end">Back End Programming</option>
+                <option value="full-stack">Full-stack Programming</option>
+            </select>
+            <br>
+            <label>Preferred Contact:</label>
+            <br>
+            <input type="checkbox" name="email" value="email">
+            <label for="email">Email</label>
+            <br>
+            <input type="checkbox" name="phone" name="phone">
+            <label for="phone">Phone</label>
+            <br>
+            <label>Package:</label>
+            <br>
+            <input type="radio" name="package" value="basic" id="basic">
+            <label for="basic">Basic</label>
+            <br>
+            <input type="radio" name="package" value="premium" id="premium">
+            <label for="premium">Premium</label>
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="notes" rows="5"></textarea>
+            <br>
+            <button type="submit">Send Inquiry</button>
+            <br>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+</body>
+
+</html>
